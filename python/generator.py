@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import imageio.v2 as imageio
 import json
 import uuid
+import moviepy.editor as mp
 
 def create_gif_with_korean_text(text, json_path, frames_path, output_path):
     # Read the JSON file
@@ -32,9 +33,15 @@ def create_gif_with_korean_text(text, json_path, frames_path, output_path):
     filename = output_path + uuid.uuid4().hex + '.gif'
     
     imageio.mimsave(filename, frames, duration=0.06)  # Duration in seconds per frame
+    clip = mp.VideoFileClip(filename)
+    clip.write_videofile(filename.replace('.gif', '.mp4'))
     
+    # remove gif file
+    import os
+    os.remove(filename)
+
     # sysout the filename
-    print(filename)
+    print(filename.replace('.gif', '.mp4'))
 
 if __name__ == '__main__':
     # take text argument
