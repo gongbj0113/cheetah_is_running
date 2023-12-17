@@ -1,0 +1,398 @@
+[
+    {
+        "imageName": "frame_00_delay-0.06s.png",
+        "bounding_box": {
+            "top": 39.0,
+            "left": 114.0,
+            "height": 25.0,
+            "width": 25.0
+        }
+    },
+    {
+        "imageName": "frame_01_delay-0.06s.png",
+        "bounding_box": {
+            "top": 34.0,
+            "left": 119.0,
+            "height": 26.0,
+            "width": 28.0
+        }
+    },
+    {
+        "imageName": "frame_02_delay-0.06s.png",
+        "bounding_box": {
+            "top": 31.0,
+            "left": 118.0,
+            "height": 28.0,
+            "width": 29.0
+        }
+    },
+    {
+        "imageName": "frame_03_delay-0.06s.png",
+        "bounding_box": {
+            "top": 33.0,
+            "left": 112.0,
+            "height": 27.0,
+            "width": 30.0
+        }
+    },
+    {
+        "imageName": "frame_04_delay-0.06s.png",
+        "bounding_box": {
+            "top": 38.0,
+            "left": 105.0,
+            "height": 30.0,
+            "width": 29.0
+        }
+    },
+    {
+        "imageName": "frame_05_delay-0.06s.png",
+        "bounding_box": {
+            "top": 45.0,
+            "left": 95.0,
+            "height": 32.0,
+            "width": 29.0
+        }
+    },
+    {
+        "imageName": "frame_06_delay-0.06s.png",
+        "bounding_box": {
+            "top": 47.0,
+            "left": 86.0,
+            "height": 31.0,
+            "width": 32.0
+        }
+    },
+    {
+        "imageName": "frame_07_delay-0.06s.png",
+        "bounding_box": {
+            "top": 41.0,
+            "left": 79.0,
+            "height": 33.0,
+            "width": 30.0
+        }
+    },
+    {
+        "imageName": "frame_08_delay-0.06s.png",
+        "bounding_box": {
+            "top": 33.0,
+            "left": 72.0,
+            "height": 32.0,
+            "width": 31.0
+        }
+    },
+    {
+        "imageName": "frame_09_delay-0.06s.png",
+        "bounding_box": {
+            "top": 29.0,
+            "left": 62.0,
+            "height": 32.0,
+            "width": 34.0
+        }
+    },
+    {
+        "imageName": "frame_10_delay-0.06s.png",
+        "bounding_box": {
+            "top": 27.0,
+            "left": 55.0,
+            "height": 30.0,
+            "width": 30.0
+        }
+    },
+    {
+        "imageName": "frame_11_delay-0.06s.png",
+        "bounding_box": {
+            "top": 26.0,
+            "left": 43.0,
+            "height": 33.0,
+            "width": 34.0
+        }
+    },
+    {
+        "imageName": "frame_12_delay-0.06s.png",
+        "bounding_box": {
+            "top": 35.0,
+            "left": 35.0,
+            "height": 33.0,
+            "width": 32.0
+        }
+    },
+    {
+        "imageName": "frame_13_delay-0.06s.png",
+        "bounding_box": {
+            "top": 47.0,
+            "left": 26.0,
+            "height": 31.0,
+            "width": 36.0
+        }
+    },
+    {
+        "imageName": "frame_14_delay-0.06s.png",
+        "bounding_box": {
+            "top": 53.0,
+            "left": 26.0,
+            "height": 31.0,
+            "width": 33.0
+        }
+    },
+    {
+        "imageName": "frame_15_delay-0.06s.png",
+        "bounding_box": {
+            "top": 52.0,
+            "left": 28.0,
+            "height": 33.0,
+            "width": 37.0
+        }
+    },
+    {
+        "imageName": "frame_16_delay-0.06s.png",
+        "bounding_box": {
+            "top": 48.0,
+            "left": 37.0,
+            "height": 33.0,
+            "width": 32.0
+        }
+    },
+    {
+        "imageName": "frame_17_delay-0.06s.png",
+        "bounding_box": {
+            "top": 44.0,
+            "left": 46.0,
+            "height": 36.0,
+            "width": 35.0
+        }
+    },
+    {
+        "imageName": "frame_18_delay-0.06s.png",
+        "bounding_box": {
+            "top": 43.0,
+            "left": 48.0,
+            "height": 38.0,
+            "width": 35.0
+        }
+    },
+    {
+        "imageName": "frame_19_delay-0.06s.png",
+        "bounding_box": {
+            "top": 50.0,
+            "left": 47.0,
+            "height": 37.0,
+            "width": 38.0
+        }
+    },
+    {
+        "imageName": "frame_20_delay-0.06s.png",
+        "bounding_box": {
+            "top": 58.0,
+            "left": 48.0,
+            "height": 38.0,
+            "width": 41.0
+        }
+    },
+    {
+        "imageName": "frame_21_delay-0.06s.png",
+        "bounding_box": {
+            "top": 70.0,
+            "left": 50.0,
+            "height": 39.0,
+            "width": 39.0
+        }
+    },
+    {
+        "imageName": "frame_22_delay-0.06s.png",
+        "bounding_box": {
+            "top": 71.0,
+            "left": 55.0,
+            "height": 42.0,
+            "width": 39.0
+        }
+    },
+    {
+        "imageName": "frame_23_delay-0.06s.png",
+        "bounding_box": {
+            "top": 64.0,
+            "left": 65.0,
+            "height": 44.0,
+            "width": 42.0
+        }
+    },
+    {
+        "imageName": "frame_24_delay-0.06s.png",
+        "bounding_box": {
+            "top": 51.0,
+            "left": 77.0,
+            "height": 49.0,
+            "width": 44.0
+        }
+    },
+    {
+        "imageName": "frame_25_delay-0.06s.png",
+        "bounding_box": {
+            "top": 44.0,
+            "left": 89.0,
+            "height": 51.0,
+            "width": 44.0
+        }
+    },
+    {
+        "imageName": "frame_26_delay-0.06s.png",
+        "bounding_box": {
+            "top": 39.0,
+            "left": 100.0,
+            "height": 53.0,
+            "width": 46.0
+        }
+    },
+    {
+        "imageName": "frame_27_delay-0.06s.png",
+        "bounding_box": {
+            "top": 43.0,
+            "left": 108.0,
+            "height": 52.0,
+            "width": 46.0
+        }
+    },
+    {
+        "imageName": "frame_28_delay-0.06s.png",
+        "bounding_box": {
+            "top": 53.0,
+            "left": 107.0,
+            "height": 55.0,
+            "width": 48.0
+        }
+    },
+    {
+        "imageName": "frame_29_delay-0.06s.png",
+        "bounding_box": {
+            "top": 65.0,
+            "left": 107.0,
+            "height": 53.0,
+            "width": 51.0
+        }
+    },
+    {
+        "imageName": "frame_30_delay-0.06s.png",
+        "bounding_box": {
+            "top": 61.0,
+            "left": 128.0,
+            "height": 57.0,
+            "width": 53.0
+        }
+    },
+    {
+        "imageName": "frame_31_delay-0.06s.png",
+        "bounding_box": {
+            "top": 50.0,
+            "left": 143.0,
+            "height": 56.0,
+            "width": 52.0
+        }
+    },
+    {
+        "imageName": "frame_32_delay-0.06s.png",
+        "bounding_box": {
+            "top": 39.0,
+            "left": 172.0,
+            "height": 60.0,
+            "width": 56.0
+        }
+    },
+    {
+        "imageName": "frame_33_delay-0.06s.png",
+        "bounding_box": {
+            "top": 31.0,
+            "left": 215.0,
+            "height": 61.0,
+            "width": 53.0
+        }
+    },
+    {
+        "imageName": "frame_34_delay-0.06s.png",
+        "bounding_box": {
+            "top": 33.0,
+            "left": 254.0,
+            "height": 61.0,
+            "width": 56.0
+        }
+    },
+    {
+        "imageName": "frame_35_delay-0.06s.png",
+        "bounding_box": {
+            "top": 44.0,
+            "left": 294.0,
+            "height": 65.0,
+            "width": 67.0
+        }
+    },
+    {
+        "imageName": "frame_36_delay-0.06s.png",
+        "bounding_box": {
+            "top": 60.0,
+            "left": 338.0,
+            "height": 65.0,
+            "width": 55.0
+        }
+    },
+    {
+        "imageName": "frame_37_delay-0.06s.png",
+        "bounding_box": {
+            "top": 75.0,
+            "left": 354.0,
+            "height": 67.0,
+            "width": 64.0
+        }
+    },
+    {
+        "imageName": "frame_38_delay-0.06s.png",
+        "bounding_box": {
+            "top": 85.0,
+            "left": 381.0,
+            "height": 68.0,
+            "width": 65.0
+        }
+    },
+    {
+        "imageName": "frame_39_delay-0.06s.png",
+        "bounding_box": {
+            "top": 84.0,
+            "left": 400.0,
+            "height": 71.0,
+            "width": 66.0
+        }
+    },
+    {
+        "imageName": "frame_40_delay-0.06s.png",
+        "bounding_box": {
+            "top": 79.0,
+            "left": 423.0,
+            "height": 68.0,
+            "width": 65.0
+        }
+    },
+    {
+        "imageName": "frame_41_delay-0.06s.png",
+        "bounding_box": {
+            "top": 77.0,
+            "left": 459.0,
+            "height": 73.0,
+            "width": 66.0
+        }
+    },
+    {
+        "imageName": "frame_42_delay-0.06s.png",
+        "bounding_box": {
+            "top": 85.0,
+            "left": 505.0,
+            "height": 76.0,
+            "width": 64.0
+        }
+    },
+    {
+        "imageName": "frame_43_delay-0.06s.png",
+        "bounding_box": {
+            "top": 101.0,
+            "left": 537.0,
+            "height": 76.0,
+            "width": 62.0
+        }
+    }
+]
