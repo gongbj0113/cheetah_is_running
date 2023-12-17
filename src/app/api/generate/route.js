@@ -18,7 +18,7 @@ export async function POST(req) {
 
   try {
     // Execute Python script
-    const { stdout } = await execAsync(`python python/generator.py "${text}"`);
+    const { stdout } = await execAsync(`python3 python/generator.py "${text}"`);
     const filePath = path.join(process.cwd(), stdout.trim());
 
     // Read the output file as a Buffer
