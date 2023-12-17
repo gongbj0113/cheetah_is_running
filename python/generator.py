@@ -41,6 +41,7 @@ def create_gif_with_korean_text(text, json_path, frames_path, output_path):
     os.remove(filename)
 
     # sysout the filename
+    print("GIF file created: ")
     print(filename.replace('.gif', '.mp4'))
 
 if __name__ == '__main__':

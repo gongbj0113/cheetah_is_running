@@ -19,9 +19,10 @@ export async function POST(req) {
   try {
     // Execute Python script
     const { stdout } = await execAsync(`python3 python/generator.py "${text}"`);
-    const filePath = path.join(process.cwd(), stdout.trim());
 
-    // Read the output file as a Buffer
+    // Get the output file path
+    // after the text 'GIF file created: '
+    const filePath = stdout.split("GIF file created:")[1].trim();
     const buffer = await readFileAsync(filePath);
 
     // Delete the file after reading
