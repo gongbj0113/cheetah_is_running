@@ -9,8 +9,8 @@ export default function Home() {
         src="/circles.svg"
         alt=".."
         className={styles.circles}
-        width={323}
-        height={15}
+        width={200}
+        height={8}
         priority
       />
       <h1>치타는 달린다</h1>
@@ -19,8 +19,8 @@ export default function Home() {
         src="/circles.svg"
         alt=".."
         className={styles.circles}
-        width={323}
-        height={15}
+        width={200}
+        height={4}
         priority
       />
 
