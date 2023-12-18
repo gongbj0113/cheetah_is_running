@@ -34,7 +34,7 @@ export default function RootLayout({
         <meta name="og:title" content="치타는 달린다 - Cheetah Runs" />
         <meta
           name="og:description"
-          content="치타는 웃고 있다는 말을 들어보셨나요? 아니, 이제는 치타도 달려야 할 때가 왔습니다. 치타는 달린다 짤을 만들어보세요! - 치타는 달린다 움짤, gif, 비디오 만들기. 인스타 스토리에 올려보세요"
+          content="치타는 웃고 있다는 말을 들어보셨나요? 아니, 이제는 치타도 달려야 할 때가 왔습니다. 치타는 달린다 짤을 만들어보세요!"
         />
         <meta name="og:type" content="website" />
         <meta name="og:url" content="https://cheetahisrunning.site" />
