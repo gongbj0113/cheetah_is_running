@@ -30,7 +30,8 @@ function GeneratePage() {
         throw new Error("Network response was not ok");
       }
       const blob = await response.blob(); // Blob으로 변환
-      return blob;
+      const videoBlob = new Blob([blob], { type: "video/mp4" });
+      return videoBlob;
     } catch (error) {
       router.push("/");
       console.error("Fetch error:", error);
