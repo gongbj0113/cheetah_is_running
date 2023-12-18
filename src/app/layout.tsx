@@ -27,6 +27,16 @@ export default function RootLayout({
           name="google-site-verification"
           content="diuT1HBEkMxYhKIdVUf9KI8syTlI1QY8vyI-HBwk1-0"
         />
+        <meta
+          name="description"
+          content="치타는 웃고 있다는 말을 들어보셨나요? 아니, 이제는 치타도 달려야 할 때가 왔습니다. 치타는 달린다 짤을 만들어보세요! - 치타는 달린다 움짤, gif, 비디오 만들기. 인스타 스토리에 올려보세요"
+        />
+        <meta name="og:site_name" content="치타는 달린다 - Cheetah Runs" />
+        <meta name="og:title" content="치타는 달린다 - Cheetah Runs" />
+        <meta
+          name="og:description"
+          content="치타는 웃고 있다는 말을 들어보셨나요? 아니, 이제는 치타도 달려야 할 때가 왔습니다. 치타는 달린다 짤을 만들어보세요! - 치타는 달린다 움짤, gif, 비디오 만들기. 인스타 스토리에 올려보세요"
+        />
       </head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-NBWE2JHMG6" />
       <Script>
