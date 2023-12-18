@@ -34,7 +34,7 @@ def create_gif_with_korean_text(text, json_path, frames_path, output_path):
     
     imageio.mimsave(filename, frames, duration=0.06)  # Duration in seconds per frame
     clip = mp.VideoFileClip(filename)
-    clip.write_videofile(filename.replace('.gif', '.mp4'))
+    clip.write_videofile(filename.replace('.gif', '.mp4'), bitrate="5000k")
     
     # remove gif file
     import os
