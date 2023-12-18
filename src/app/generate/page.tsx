@@ -152,7 +152,7 @@ function GeneratePage() {
               }
               navigator.share({
                 title: "치타는 달린다 짤 생성기",
-                text: "치타는 웃고 있다는 말을 들어보셨나요? 아니, 이제는 치타도 달려야 할 때가 왔습니다. 치타는 달린다 짤을 만들어보세요!",
+                text: "치타는 웃고 있다는 말을 들어보셨나요? 🐆🐆\n아니, 이제는 치타도 달려야🏃‍♀️💨 할 때가 왔습니다. 🔥🔥치타는 달린다 짤을 만들어보세요!🔥🔥",
                 url: "https://cheetahisrunning.site",
               });
             }}
