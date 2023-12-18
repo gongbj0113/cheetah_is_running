@@ -24,6 +24,16 @@ export default function RootLayout({
           content="ca-pub-2263201396084913"
         ></meta>
       </head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-NBWE2JHMG6" />
+      <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+  
+          gtag('config', 'G-NBWE2JHMG6');
+          `}
+      </Script>
       <body className={inter.className}>{children}</body>
     </html>
   );
