@@ -12,6 +12,23 @@ interface State {
   videoBlob: Blob | null;
 }
 
+function LoadingText() {
+  const [text, setText] = useState("달리는 치타\n만드는중");
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setText((text) => {
+        if (text.endsWith("...")) {
+          return "달리는 치타\n만드는중";
+        }
+        return text + ".";
+      });
+    }, 500);
+    return () => clearInterval(interval);
+  }, []);
+
+  return <div className={styles.loadingText1}>{text}</div>;
+}
+
 function GeneratePage() {
   const router = useRouter();
   const [state, setState] = useState<State>({
@@ -93,11 +110,7 @@ function GeneratePage() {
 
       {state.screen === "loading" && (
         <div className={styles.loading}>
-          <div className={styles.loadingText1}>
-            달리는 치타
-            <br />
-            만드는중...
-          </div>
+          <LoadingText />
           <div className={styles.loadingText2}>얼마안걸림</div>
         </div>
       )}

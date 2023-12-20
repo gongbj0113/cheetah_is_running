@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import ExampleVideo from "./ExampleVideo";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <ExampleVideo source="/example1.mp4" />
+      <ExampleVideo source="/example2.mp4" />
+      <ExampleVideo source="/example3.mp4" />
       <Image
         src="/circles.svg"
         alt=".."
