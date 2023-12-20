@@ -4,15 +4,20 @@ import React, { useEffect, useState } from "react";
 function ExampleVideo({ source }: { source: string }) {
   const [intervalTime, setIntervalTime] = useState(0);
   const [position, setPosition] = useState({
-    x: window.innerWidth / 2,
-    y: window.innerHeight / 2,
+    x: 0,
+    y: 0,
   });
   const [screenSize, setScreenSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 0,
+    height: 0,
   });
 
   const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    setPosition({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
+    setScreenSize({ width: window.innerWidth, height: window.innerHeight });
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
